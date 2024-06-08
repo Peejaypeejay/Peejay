@@ -1,10 +1,11 @@
 const btnLike1 = document.getElementById("btnLike1")
 const countLike1 = document.getElementById("countLike1")
-const btnDisLike3 = document.getElementById("btnDisLike3")
-const countDisLike3 = document.getElementById("countDisLike3")
 
 const btnLike2 = document.getElementById("btnLike2")
 const countLike2 = document.getElementById("countLike2")
+//Dislike
+const btnDisLike3 = document.getElementById("btnDisLike3")
+const countDisLike3 = document.getElementById("countDisLike3")
 const btnDisLike4 = document.getElementById("btnDisLike4")
 const countDisLike4 = document.getElementById("countDisLike4")
 
@@ -24,6 +25,8 @@ function clickLike1(){
 function clickLike2(){
   let totalLike2 = parseInt(countLike2.value) + 1
   countLike2.textContent = totalLike2.toString()
+
+  //DiskLike
 }
 function clickDisLike3(){
   let totalDisLike3 = parseInt(countDisLike3.value) + 1
